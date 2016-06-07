@@ -1,0 +1,12 @@
+CCD Training - Separation of Concerns - Event Sender
+
+This project contains the class CsvMaxValuesCalculator that can be used to
+determine the max values of a CSV file containing integer values.
+
+The code is difficult to read and difficult to test because it mixes up the
+concerns: user interface, file io, file parsing, logging, errorhandling and
+business logic.
+
+Goal:
+Refactor the class that the concerns are handled technically seperate where
+feasible but at least visually seperate in other cases.
