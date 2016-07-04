@@ -35,7 +35,7 @@ public class CsvMaxValuesCalculator
 {
     private int[] maxValues;
 
-    public void calculateCsvMaxValues(String... args)
+    public void calculateCsvMaxValues(String[] args)
     {
         String filename = args[0];
         if (filename == null || filename.isEmpty())
@@ -96,7 +96,7 @@ public class CsvMaxValuesCalculator
         System.out.println("The max column values are: " + maxValuesString);
     }
 
-    public static void main(String... args)
+    public static void main(String[] args)
     {
         new CsvMaxValuesCalculator().calculateCsvMaxValues(args);
     }
