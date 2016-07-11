@@ -1,0 +1,26 @@
+{
+  "name": "ccd-soc-csvmax",
+  "version": "0.9.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "prestart": "npm run compile",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilm4nn/ccd-soc-csvmax.git"
+  },
+  "author": "Christian Janz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tilm4nn/ccd-soc-csvmax/issues"
+  },
+  "homepage": "https://github.com/tilm4nn/ccd-soc-csvmax#readme",
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.3.1"
+  }
+}
