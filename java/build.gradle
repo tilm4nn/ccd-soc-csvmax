@@ -3,7 +3,11 @@ apply plugin: 'java'
 version = '0.9.0'
 sourceCompatibility = 8
 targetCompatibility = 8
-	
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
 repositories {
 	mavenCentral()
 }
