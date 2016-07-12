@@ -9,7 +9,7 @@
             "stopOnEntry": false,
             "args": ["test.csv"],
             "cwd": "${workspaceRoot}",
-            "preLaunchTask": "",
+            "preLaunchTask": "compile",
             "runtimeExecutable": null,
             "runtimeArgs": [
                 "--nolazy"
